@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:modernlogintute/pages/home_page.dart';
 import 'package:modernlogintute/pages/login_page.dart';
 
+import 'login_register_page.dart';
+
 class AuthPage extends StatelessWidget {
   const AuthPage({super.key});
 
@@ -21,7 +23,7 @@ class AuthPage extends StatelessWidget {
 
               //situation 2: Not login in
               else {
-                return LoginPage();
+                return LoginOrRegisterPage();
               }
             },
       ),
