@@ -16,13 +16,13 @@ The login user interface (UI) for this app is inspired by Mitch Koko's work. Mit
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/uscensus-flutter-app.git
+`git clone https://github.com/your-username/uscensus-flutter-app.git`
 
 2. Install the dependencies:
-flutter pub get
+`flutter pub get`
 
 3. Run the app:
-flutter run
+`flutter run`
 
 
 ## Contributing
